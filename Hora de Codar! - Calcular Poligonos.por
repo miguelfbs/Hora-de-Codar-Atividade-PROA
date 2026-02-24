@@ -35,6 +35,23 @@ programa {
         leia (lado_menor)
         inteiro area_losango = lado_maior * lado_menor / 2
       escreva ("O valor da área é ",area_losango,"m² \n")
+      escreva ("_____________________________________ \n")
+
+      //Trapézio
+      escreva ("\nAgora vamos calcular a área de um trapézio! \n")
+      escreva ("Qual valor da base maior? (apenas o número) ")
+        inteiro base_maior = 0
+        leia (base_maior)
+      escreva ("Qual valor da base menor? (apenas o número) ")
+        inteiro base_menor = 0
+        leia (base_menor)
+        escreva ("Qual valor da altura? (apenas o número) ")
+        inteiro altura_trapezio = 0
+        leia (altura_trapezio)
+        inteiro area_trapezio = ((base_maior + base_menor)*altura_trapezio) / 2
+      escreva ("O valor da área é ",area_losango,"m² \n")
+      escreva ("_____________________________________ \n")
+      
 
   }
 }
