@@ -83,7 +83,7 @@ programa {
       escreva ("Qual valor do raio? (apenas o número) ")
         real raio = 0
         leia (raio)
-        real area_circulo = 3.14 * raio
+        real area_circulo = 3.14 * (raio * raio)
         real area_circuloForma = mat.arredondar(area_circulo, 2)
       escreva ("O valor da área é ",area_circuloForma,"m² \n")
       escreva ("_____________________________________ \n")
